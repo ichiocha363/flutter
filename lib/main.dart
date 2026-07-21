@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_belajar_1/day_5/layouting.dart';
 import 'package:flutter_belajar_1/day_5/styling.dart';
+import 'package:flutter_belajar_1/day_5/tugas1.dart';
 // import 'package:flutter_belajar_1/day_5/scaffold.dart';
 
 void main() {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 93, 0, 255)),
       ),
-      home: StylingDay5()
+      home: Tugas1()
     );
   }
 }
