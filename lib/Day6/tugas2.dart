@@ -45,7 +45,7 @@ class Tugas2Flutter extends StatelessWidget {
           ),
 
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 20),
+            margin: EdgeInsets.symmetric(horizontal: 20,vertical: 20),
             child: Row(children:
             [Icon(Icons.phone),
             Text("+62 851-1130-5126"),
@@ -56,7 +56,8 @@ class Tugas2Flutter extends StatelessWidget {
           ),
 
           Padding(
-            padding: EdgeInsetsGeometry.symmetric(horizontal: 20, vertical: 20),
+            padding: 
+            EdgeInsetsGeometry.symmetric(horizontal: 10, vertical: 20),
             child: Row(children:[
               Container(
                 margin: EdgeInsets.all(20),
@@ -69,7 +70,7 @@ class Tugas2Flutter extends StatelessWidget {
                 ),
                 child: Expanded(child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: [Text("1000+", style: TextStyle(fontWeight: FontWeight.bold),), Text("Pemgguna")],
+                  children: [Text("1000+", style: TextStyle(fontWeight: FontWeight.bold),), Text("Pengguna")],
                 )),
               ),
               Spacer(),
