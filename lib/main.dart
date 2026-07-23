@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_belajar_1/Day6/container.dart';
+import 'package:flutter_belajar_1/Day6/expanded.dart';
+import 'package:flutter_belajar_1/Day6/image.dart';
+import 'package:flutter_belajar_1/Day6/layouting.dart';
+import 'package:flutter_belajar_1/Day6/spacer.dart';
+import 'package:flutter_belajar_1/Day6/tugas2.dart';
 // import 'package:flutter_belajar_1/day_5/layouting.dart';
 import 'package:flutter_belajar_1/day_5/styling.dart';
 import 'package:flutter_belajar_1/day_5/tugas1.dart';
@@ -34,7 +40,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 93, 0, 255)),
       ),
-      home: Tugas1()
+      home: Tugas2Flutter()
     );
   }
 }
