@@ -11,18 +11,18 @@ class ImageContainerDay6 extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
 
-      body: Column(children: [
-        Container(
-          height: 300,
-          width: 200,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage('assets/image/bdul.jpeg'),
+      body: Column(
+        children: [
+          Container(
+            height: 300,
+            width: 200,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/image/bdul.jpeg'),
+              ),
+            ),
           ),
-        )
-        )
-      ],
-        
+        ],
       ),
     );
   }

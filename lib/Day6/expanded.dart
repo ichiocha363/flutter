@@ -11,19 +11,18 @@ class ExpandedDay6 extends StatelessWidget {
         backgroundColor: Colors.amber,
       ),
 
-      body: 
-      Column(
+      body: Column(
         children: [
-      Row(
+          Row(
             children: [
-              Expanded(child: Container(color: Colors.red,)),
-              Expanded(child: Container(color: Colors.yellow,)),
-              Expanded(child: Container(color: Colors.blue,)),
+              Expanded(child: Container(color: Colors.red)),
+              Expanded(child: Container(color: Colors.yellow)),
+              Expanded(child: Container(color: Colors.blue)),
             ],
           ),
-          Expanded(flex: 2, child: Container(color: Colors.red,)),
-          Expanded(child: Container(color: Colors.yellow,)),
-          Expanded(child: Container(color: Colors.blue,))
+          Expanded(flex: 2, child: Container(color: Colors.red)),
+          Expanded(child: Container(color: Colors.yellow)),
+          Expanded(child: Container(color: Colors.blue)),
         ],
       ),
     );

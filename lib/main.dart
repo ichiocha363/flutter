@@ -1,13 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_belajar_1/Day6/container.dart';
-import 'package:flutter_belajar_1/Day6/expanded.dart';
-import 'package:flutter_belajar_1/Day6/image.dart';
-import 'package:flutter_belajar_1/Day6/layouting.dart';
-import 'package:flutter_belajar_1/Day6/spacer.dart';
-import 'package:flutter_belajar_1/Day6/tugas2.dart';
-// import 'package:flutter_belajar_1/day_5/layouting.dart';
-import 'package:flutter_belajar_1/day_5/styling.dart';
-import 'package:flutter_belajar_1/day_5/tugas1.dart';
+import 'package:flutter_belajar_1/day_8/tugas3.dart';
 // import 'package:flutter_belajar_1/day_5/scaffold.dart';
 
 void main() {
@@ -24,23 +16,25 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
-        
+
         // TRY THIS: Try running your application with "flutter run". You'll see
         // the application has a purple toolbar. Then, without quitting the app,
         // try changing the seedColor in the colorScheme below to Colors.green
         // and then invoke "hot reload" (save your changes or press the "hot
         // reload" button in a Flutter-supported IDE, or press "r" if you used
         // the command line to start the app).
-        
+
         // Notice that the counter didn't reset back to zero; the application
         // state is not lost during the reload. To reset the state, use hot
         // restart instead.
-        
+
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 93, 0, 255)),
+        colorScheme: .fromSeed(
+          seedColor: const Color.fromARGB(255, 93, 0, 255),
+        ),
       ),
-      home: Tugas2Flutter()
+      home: Tgs3Flutter(),
     );
   }
 }
