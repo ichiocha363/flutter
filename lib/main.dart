@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_belajar_1/day_8/tugas3.dart';
+import 'package:flutter_belajar_1/day_8/tugas4.dart';
 // import 'package:flutter_belajar_1/day_5/scaffold.dart';
 
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
           seedColor: const Color.fromARGB(255, 93, 0, 255),
         ),
       ),
-      home: Tgs3Flutter(),
+      home: TugasFlutter4(),
     );
   }
 }
