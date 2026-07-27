@@ -83,6 +83,7 @@ class TugasFlutter4 extends StatelessWidget {
               ],
             ),
           ),
+          Divider(),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

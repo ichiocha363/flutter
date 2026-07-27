@@ -30,7 +30,10 @@ class Tgs3Flutter extends StatelessWidget {
                       Align(alignment: Alignment.center),
                       Text(
                         "Form Registrasi",
-                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       SizedBox(
                         height: 70,
@@ -97,10 +100,11 @@ class Tgs3Flutter extends StatelessWidget {
                   ),
                 ),
               ),
-              Text("Rekomendasi Tempat Wisata",
-              style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold),),
+              Divider(),
+              Text(
+                "Rekomendasi Tempat Wisata",
+                style: TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
+              ),
 
               GridView.count(
                 shrinkWrap: true,
@@ -110,7 +114,7 @@ class Tgs3Flutter extends StatelessWidget {
                 crossAxisCount: 3,
                 children: <Widget>[
                   Stack(
-                      alignment: AlignmentGeometry.bottomCenter,
+                    alignment: AlignmentGeometry.bottomCenter,
                     children: [
                       Container(
                         height: 300,
@@ -127,131 +131,128 @@ class Tgs3Flutter extends StatelessWidget {
                         height: 20,
                         width: 100,
                         color: Colors.white,
-                        child: Text(
-                          "Jakarta",
-                          textAlign: TextAlign.center,
-                        ),
-                      )
+                        child: Text("Jakarta", textAlign: TextAlign.center),
+                      ),
                     ],
                   ),
 
-                   Stack(
-                      alignment: AlignmentGeometry.bottomCenter,
+                  Stack(
+                    alignment: AlignmentGeometry.bottomCenter,
                     children: [
                       Container(
                         height: 300,
                         width: 200,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                        image: DecorationImage(
-                          image: AssetImage('assets/image/bandung.jpeg'),
-                          fit: BoxFit.cover,),),),
+                          image: DecorationImage(
+                            image: AssetImage('assets/image/bandung.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
                       Container(
                         height: 20,
                         width: 100,
                         color: Colors.white,
-                        child: Text(
-                          "Bandung",
-                          textAlign: TextAlign.center,
-                        ),
-                      )
+                        child: Text("Bandung", textAlign: TextAlign.center),
+                      ),
                     ],
                   ),
 
-                   Stack(
-                      alignment: AlignmentGeometry.bottomCenter,
+                  Stack(
+                    alignment: AlignmentGeometry.bottomCenter,
                     children: [
                       Container(
                         height: 300,
                         width: 200,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                        image: DecorationImage(
-                          image: AssetImage('assets/image/padang.jpeg'),
-                          fit: BoxFit.cover,),),),
+                          image: DecorationImage(
+                            image: AssetImage('assets/image/padang.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
                       Container(
                         height: 20,
                         width: 100,
                         color: Colors.white,
-                        child: Text(
-                          "Padang",
-                          textAlign: TextAlign.center,
-                        ),
-                      )
+                        child: Text("Padang", textAlign: TextAlign.center),
+                      ),
                     ],
                   ),
 
-                   Stack(
-                      alignment: AlignmentGeometry.bottomCenter,
+                  Stack(
+                    alignment: AlignmentGeometry.bottomCenter,
                     children: [
                       Container(
                         height: 300,
                         width: 200,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                        image: DecorationImage(
-                          image: AssetImage('assets/image/tokyo.jpeg'),
-                          fit: BoxFit.cover,),),),
+                          image: DecorationImage(
+                            image: AssetImage('assets/image/tokyo.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
                       Container(
                         height: 20,
                         width: 100,
                         color: Colors.white,
-                        child: Text(
-                          "Tokyo",
-                          textAlign: TextAlign.center,
-                        ),
-                      )
+                        child: Text("Tokyo", textAlign: TextAlign.center),
+                      ),
                     ],
                   ),
 
-                   Stack(
-                      alignment: AlignmentGeometry.bottomCenter,
+                  Stack(
+                    alignment: AlignmentGeometry.bottomCenter,
                     children: [
                       Container(
                         height: 300,
                         width: 200,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                        image: DecorationImage(
-                          image: AssetImage('assets/image/kyoto.jpeg'),
-                          fit: BoxFit.cover,),),),
+                          image: DecorationImage(
+                            image: AssetImage('assets/image/kyoto.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
                       Container(
                         height: 20,
                         width: 100,
                         color: Colors.white,
-                        child: Text(
-                          "Kyoto",
-                          textAlign: TextAlign.center,
-                        ),
-                      )
+                        child: Text("Kyoto", textAlign: TextAlign.center),
+                      ),
                     ],
                   ),
 
-                   Stack(
-                      alignment: AlignmentGeometry.bottomCenter,
+                  Stack(
+                    alignment: AlignmentGeometry.bottomCenter,
                     children: [
                       Container(
                         height: 300,
                         width: 200,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                        image: DecorationImage(
-                          image: AssetImage('assets/image/osaka.jpeg'),
-                          fit: BoxFit.cover,),),),
+                          image: DecorationImage(
+                            image: AssetImage('assets/image/osaka.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
                       Container(
                         height: 20,
                         width: 100,
                         color: Colors.white,
-                        child: Text(
-                          "Osaka",
-                          textAlign: TextAlign.center,
-                        ),
-                      )
+                        child: Text("Osaka", textAlign: TextAlign.center),
+                      ),
                     ],
                   ),
                 ],
               ),
-            ]
+            ],
           ),
         ),
       ),
