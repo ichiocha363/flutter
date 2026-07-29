@@ -101,6 +101,11 @@ class _Tugas5FlutterState extends State<Tugas5Flutter> {
               child: Container(
                 width: 200,
                 height: 50,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(10),
+                ),
                 child: Text(
                   "Sentuh Kotak Ini",
                   style: TextStyle(
@@ -108,11 +113,6 @@ class _Tugas5FlutterState extends State<Tugas5Flutter> {
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
                   ),
-                ),
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  color: Colors.blue,
-                  borderRadius: BorderRadius.circular(10),
                 ),
               ),
             ),

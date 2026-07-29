@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+
+class HomeRouting2Day11 extends StatelessWidget {
+  const HomeRouting2Day11({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("Home Day 11"), backgroundColor: Colors.amber),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text("kembali"),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
