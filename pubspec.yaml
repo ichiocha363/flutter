@@ -69,6 +69,7 @@ flutter:
     - assets/image/tokyo.jpeg
     - assets/image/Tride.jpeg
     - assets\image\Vector.png
+    - assets/image/google.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
