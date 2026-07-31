@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_belajar_1/Day_11/tugas6.dart';
+import 'package:flutter_belajar_1/day_13/login.dart';
 // import 'package:flutter_belajar_1/day_5/scaffold.dart';
 
 void main() {
@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -36,10 +37,10 @@ class MyApp extends StatelessWidget {
       ),
       // initialRoute: "/",
       // routes: {
-      //   "/": (context) => RoutingDay11(),
-      //   "/home": (context) => HomeRoutingDay11(),
+      //   "/": (context) => ButtomNavDay13(),
+      //   "/home": (context) => HalamanLoginDay13(),
       // },
-      home: Tugas6Day11(),
+      home: HalamanLoginDay13(),
     );
   }
 }
