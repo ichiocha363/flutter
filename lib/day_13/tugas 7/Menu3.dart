@@ -14,18 +14,21 @@ class _Menu3Tugas7State extends State<Menu3Tugas7> {
     return Column(
       children: [
         Center(),
-        DropdownButton(
-          value: _pilihan,
-          items: ["Elektronik", "Pakaian", "Makanan"].map((String val) {
-            return DropdownMenuItem(value: val, child: Text(val));
-          }).toList(),
-          onChanged: (value) {
-            setState(() {
-              _pilihan = value;
-            });
-          },
+        Padding(
+          padding: const EdgeInsets.all(12),
+          child: DropdownButton(
+            value: _pilihan,
+            items: ["Elektronik", "Pakaian", "Makanan"].map((String val) {
+              return DropdownMenuItem(value: val, child: Text(val));
+            }).toList(),
+            onChanged: (value) {
+              setState(() {
+                _pilihan = value;
+              });
+            },
+          ),
         ),
-        Text(_pilihan.toString()),
+        Text("Anda memilih kategori $_pilihan", style: TextStyle(fontSize: 30)),
       ],
     );
   }

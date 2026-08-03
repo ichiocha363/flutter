@@ -16,12 +16,15 @@ class _Menu2Tugas7State extends State<Menu2Tugas7> {
       color: _nyala ? Colors.black : Colors.white,
       child: Column(
         children: [
-          Switch(
-            value: _nyala,
-            onChanged: (value) {
-              _nyala = value ?? false;
-              setState(() {});
-            },
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: Switch(
+              value: _nyala,
+              onChanged: (value) {
+                _nyala = value ?? false;
+                setState(() {});
+              },
+            ),
           ),
           Text(_nyala ? "matiin" : "Hidupin"),
         ],
