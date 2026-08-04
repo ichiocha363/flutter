@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_belajar_1/Day_11/extension/navigator.dart';
+import 'package:flutter_belajar_1/Day_15/list.dart';
+import 'package:flutter_belajar_1/Day_15/list_of_map.dart';
+import 'package:flutter_belajar_1/Day_15/model/list_model.dart';
 import 'package:flutter_belajar_1/day_13/input_widget/checkbox.dart';
 // import 'package:flutter_belajar_1/extension/navigator.dart';
 
@@ -24,6 +27,9 @@ class _DrawerDay13State extends State<DrawerDay13> {
     Center(child: Text("School")),
     Center(child: Text("Business")),
     inputwidgetDay13(),
+    ListDataDay15(),
+    ListOfMapDay15(),
+    ListOfModelDay15(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -58,6 +64,27 @@ class _DrawerDay13State extends State<DrawerDay13> {
               title: Text("Input Widget"),
               onTap: () {
                 changeBottom(3);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.input),
+              title: Text("Input Widget"),
+              onTap: () {
+                changeBottom(4);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.input),
+              title: Text("Input Widget"),
+              onTap: () {
+                changeBottom(5);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.input),
+              title: Text("Input Widget"),
+              onTap: () {
+                changeBottom(6);
               },
             ),
           ],

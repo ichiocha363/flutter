@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_belajar_1/day_13/Tugas%208/home.dart';
+import 'package:flutter_belajar_1/day_13/drawer.dart';
 import 'package:intl/date_symbol_data_local.dart';
 // import 'package:flutter_belajar_1/day_5/scaffold.dart';
 
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
       //   "/": (context) => ButtomNavDay13(),
       //   "/home": (context) => HalamanLoginDay13(),
       // },
-      home: HomeTugas8(),
+      home: DrawerDay13(),
     );
   }
 }
