@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_belajar_1/Day_15/tugas%209/home_homean.dart';
+import 'package:flutter_belajar_1/Day_17/service/preference_handler.dart';
+import 'package:flutter_belajar_1/Day_17/view/splash_screen.dart';
 import 'package:intl/date_symbol_data_local.dart';
 // import 'package:flutter_belajar_1/day_5/scaffold.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await initializeDateFormatting("id_ID,", null);
+  await PreferenceHandler.init();
   runApp(const MyApp());
 }
 
@@ -42,7 +45,7 @@ class MyApp extends StatelessWidget {
       //   "/": (context) => ButtomNavDay13(),
       //   "/home": (context) => HalamanLoginDay13(),
       // },
-      home: HomeListTugas9(),
+      home: SplashScreenTugas11(),
     );
   }
 }
