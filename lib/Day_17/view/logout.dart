@@ -22,6 +22,9 @@ class _Logouttugas11Day17State extends State<Logouttugas11Day17> {
               onPressed: () {
                 PreferenceHandler.logOut();
                 context.pushAndRemoveAll(const HalamanLoginTugas11());
+                ScaffoldMessenger.of(
+                  context,
+                ).showSnackBar(SnackBar(content: Text("Berhasil Logout")));
               },
               child: Text("LogOut"),
             ),

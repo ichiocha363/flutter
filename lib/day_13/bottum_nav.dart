@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_belajar_1/Day_18/view/data_user.dart';
 
 class ButtomNavDay13 extends StatefulWidget {
   const ButtomNavDay13({super.key});
@@ -19,6 +20,7 @@ class _ButtomNavDay13State extends State<ButtomNavDay13> {
     Center(child: Text("Home")),
     Center(child: Text("School")),
     Center(child: Text("Business")),
+    DataUserDay18(),
   ];
 
   @override
@@ -32,6 +34,7 @@ class _ButtomNavDay13State extends State<ButtomNavDay13> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.school), label: "School"),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: "user"),
           BottomNavigationBarItem(
             icon: Icon(Icons.business),
             label: "Business",

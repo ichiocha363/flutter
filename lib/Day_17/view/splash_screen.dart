@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_belajar_1/Day_11/extension/navigator.dart';
 import 'package:flutter_belajar_1/Day_17/service/preference_handler.dart';
-import 'package:flutter_belajar_1/Day_17/view/logintugas11.dart';
+import 'package:flutter_belajar_1/Day_18/view/LoginDay18.dart';
 import 'package:flutter_belajar_1/day_13/drawer.dart';
 
 class SplashScreenTugas11 extends StatefulWidget {
@@ -23,7 +23,7 @@ class _SplashScreenTugas11State extends State<SplashScreenTugas11> {
     if (PreferenceHandler.isLogin == true) {
       context.push(const DrawerDay13());
     } else {
-      context.push(const HalamanLoginTugas11());
+      context.push(const LoginDay18SQFLITE());
     }
   }
 

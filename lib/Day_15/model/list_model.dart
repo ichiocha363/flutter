@@ -24,7 +24,7 @@ class ListOfModelDay15 extends StatelessWidget {
     BuahModel(nama: "Sirsak", harga: "20000", asal: "Karibia"),
     BuahModel(nama: "Ceri", harga: "55000", asal: "Turki"),
     BuahModel(nama: "Alpukat", harga: "40000", asal: "Meksiko"),
-    BuahModel(nama: "Blueberry", harga: "60000", asal: "Kanada"),
+    BuahModel(nama: "Blueberry", harga: "60000", asal: "Kanada",),
   ];
   @override
   Widget build(BuildContext context) {

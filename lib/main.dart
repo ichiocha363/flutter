@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_belajar_1/Day_17/service/preference_handler.dart';
-import 'package:flutter_belajar_1/Day_17/view/splash_screen.dart';
+import 'package:flutter_belajar_1/Day_18/view/LoginDay18.dart';
 import 'package:intl/date_symbol_data_local.dart';
 // import 'package:flutter_belajar_1/day_5/scaffold.dart';
 
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       //   "/": (context) => ButtomNavDay13(),
       //   "/home": (context) => HalamanLoginDay13(),
       // },
-      home: SplashScreenTugas11(),
+      home: LoginDay18SQFLITE(),
     );
   }
 }

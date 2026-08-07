@@ -3,6 +3,8 @@ import 'package:flutter_belajar_1/Day_11/extension/navigator.dart';
 import 'package:flutter_belajar_1/Day_15/list.dart';
 import 'package:flutter_belajar_1/Day_15/list_of_map.dart';
 import 'package:flutter_belajar_1/Day_15/model/list_model.dart';
+import 'package:flutter_belajar_1/Day_16/text_form_field.dart';
+import 'package:flutter_belajar_1/Day_17/view/logout.dart';
 import 'package:flutter_belajar_1/day_13/input_widget/checkbox.dart';
 // import 'package:flutter_belajar_1/extension/navigator.dart';
 
@@ -30,6 +32,8 @@ class _DrawerDay13State extends State<DrawerDay13> {
     ListDataDay15(),
     ListOfMapDay15(),
     ListOfModelDay15(),
+    TextformfieldDay16(),
+    Logouttugas11Day17(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -85,6 +89,20 @@ class _DrawerDay13State extends State<DrawerDay13> {
               title: Text("Input Widget"),
               onTap: () {
                 changeBottom(6);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.input),
+              title: Text("Input Widget"),
+              onTap: () {
+                changeBottom(7);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.leave_bags_at_home),
+              title: Text("LogOut"),
+              onTap: () {
+                changeBottom(8);
               },
             ),
           ],
